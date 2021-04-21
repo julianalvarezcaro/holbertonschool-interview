@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-# Lockboxes challenge solution
+"""Lockboxes challenge solution
+"""
 
 
 def canUnlockAll(boxes):
-    # Given an array of boxes, returns True if all boxes can be opened
-    # Returns False otherwise
+    """Given an array of boxes, returns True if all boxes can be opened
+    Returns False otherwise
+    """
 
     keys = [0]
     pendingBoxes = list(range(len(boxes)))
