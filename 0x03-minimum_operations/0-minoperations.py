@@ -18,6 +18,7 @@ def minOperations(n):
             if n <= 1:
                 break
 
-    min_ops += int(n)
+    if n > 1:
+        min_ops += int(n)
 
     return min_ops
